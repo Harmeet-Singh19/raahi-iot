@@ -159,7 +159,7 @@ def user_download():
     dir = ""
     if leftx[-1] - leftx[0] > rightx[-1] - rightx[0]:
         dir += "left"
-    elif leftx[-1] - leftx[0] > rightx[-1] - rightx[0]:
+    elif leftx[-1] - leftx[0] < rightx[-1] - rightx[0]:
         dir += "right"
     else:
         dir += "straight"
